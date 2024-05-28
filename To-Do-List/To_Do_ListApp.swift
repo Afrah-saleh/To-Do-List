@@ -13,8 +13,11 @@ struct To_Do_ListApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            let context = persistenceController.container.viewContext
+            let dateHolder = DateHolder(context)
+            TaskListView()
+                .environment(\.managedObjectContext, context)
+                .environmentObject(dateHolder) // Ensure DateHolder is being passed here
         }
     }
 }
