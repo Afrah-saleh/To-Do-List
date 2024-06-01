@@ -21,6 +21,7 @@
 		949E3D022C03A114006C2EA4 /* TaskItemExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E3D012C03A114006C2EA4 /* TaskItemExtention.swift */; };
 		949E3D042C03AC01006C2EA4 /* DateScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E3D032C03AC01006C2EA4 /* DateScroller.swift */; };
 		949E3D062C061669006C2EA4 /* TaskFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E3D052C061669006C2EA4 /* TaskFilter.swift */; };
+		949E3D082C062147006C2EA4 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E3D072C062147006C2EA4 /* SplashScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		949E3D012C03A114006C2EA4 /* TaskItemExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemExtention.swift; sourceTree = "<group>"; };
 		949E3D032C03AC01006C2EA4 /* DateScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateScroller.swift; sourceTree = "<group>"; };
 		949E3D052C061669006C2EA4 /* TaskFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskFilter.swift; sourceTree = "<group>"; };
+		949E3D072C062147006C2EA4 /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				949E3CFE2C03A04F006C2EA4 /* CheckBoxView.swift */,
 				949E3D032C03AC01006C2EA4 /* DateScroller.swift */,
 				949E3CE42C0394AA006C2EA4 /* TaskListView.swift */,
+				949E3D072C062147006C2EA4 /* SplashScreen.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -190,6 +193,7 @@
 				949E3D062C061669006C2EA4 /* TaskFilter.swift in Sources */,
 				949E3D022C03A114006C2EA4 /* TaskItemExtention.swift in Sources */,
 				949E3CFF2C03A050006C2EA4 /* CheckBoxView.swift in Sources */,
+				949E3D082C062147006C2EA4 /* SplashScreen.swift in Sources */,
 				949E3CFD2C039F8B006C2EA4 /* TaskCell.swift in Sources */,
 				949E3D042C03AC01006C2EA4 /* DateScroller.swift in Sources */,
 				949E3CF92C039664006C2EA4 /* TaskEditView.swift in Sources */,
